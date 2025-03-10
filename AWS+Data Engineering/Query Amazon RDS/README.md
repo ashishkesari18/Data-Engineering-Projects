@@ -1,6 +1,6 @@
 # **Query Amazon RDS with Python (PostgreSQL)**
 
-![RDS](images/Amazon AWS RDS.png)
+![RDS](AWS+Data Engineering/Query Amazon RDS/images/Amazon AWS RDS.png)
 
 # **Overview**
 
