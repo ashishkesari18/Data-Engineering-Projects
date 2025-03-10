@@ -1,20 +1,18 @@
-**Query Amazon RDS with Python (PostgreSQL)**
+# **Query Amazon RDS with Python (PostgreSQL)**
 
-![RDS](/Users/ashishkesari/Desktop/ashish/Data Engineering Projects/Data-Engineering-Projects/AWS+Data Engineering/Query Amazon RDS/images/Amazon AWS RDS.png)
+![RDS](images/Amazon AWS RDS.png)
 
-Overview
+# **Overview**
 
 This project demonstrates how to:
-
-Architecture
-
-![Architecture](/Users/ashishkesari/Desktop/ashish/Data Engineering Projects/Data-Engineering-Projects/AWS+Data Engineering/Query Amazon RDS/images/Architecture.png)
-
 1. Deploy an Amazon RDS instance (PostgreSQL/MySQL).
 2. Connect to it using Python (psycopg2 for PostgreSQL, pymysql for MySQL).
 3. Perform CRUD (Create, Read, Update, Delete) operations on the RDS instance.
 4. Secure the database using VPC, Security Groups, and IAM roles.
 
+## **Architecture**
+
+![Architecture](images/Architecture.png)
 The architecture consists of the following components:
 
 - Python Client: A Python script that connects to the Amazon RDS instance and performs database operations.
@@ -23,7 +21,7 @@ The architecture consists of the following components:
 - Security Groups: Defines firewall rules that control inbound and outbound traffic to the Amazon RDS instance.
 - IAM Role: Manages permissions to securely access AWS services and allows controlled interaction with Amazon RDS.
 
-* Prerequisites
+## **Prerequisites**
 
 Before getting started, ensure that you have the following:
 
@@ -44,12 +42,12 @@ Before getting started, ensure that you have the following:
 * Create IAM Role:
 * Optionally, you can create an IAM role with policies to control access to the RDS instance.
 
-Python Environment Setup:
+## **Python Environment Setup:**
 - Install Python dependencies using pip:
 - pip install psycopg2 pymysql
 - Ensure your AWS RDS connection details (e.g., endpoint, username, password) are updated in the Python script.
 
-Code Explanation
+## **Code Explanation**
 - The Python script will perform the following actions:
 - Connect to RDS: Establish a connection to your Amazon RDS PostgreSQL or MySQL database.
 - Create Tables: Create necessary tables for storing data.
@@ -58,4 +56,4 @@ Code Explanation
 
 If everything went well you may see the following output:
 
-![Output](/Users/ashishkesari/Desktop/ashish/Data Engineering Projects/Data-Engineering-Projects/AWS+Data Engineering/Query Amazon RDS/images/output.png)
+![Output](images/output.png)
