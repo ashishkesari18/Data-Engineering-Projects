@@ -1,0 +1,134 @@
+Running Queries & Expected Outputs
+
+1. Count Total Records in the Dataset
+
+SELECT COUNT(*) FROM amazon_reviews;
+
+✅ Expected Output:
+
+count(*)
+
+200,000
+
+(if using only test.csv)
+
+1,800,000
+
+(if using train.csv too)
+
+2. Count Reviews by Sentiment (Positive/Negative)
+
+SELECT label, COUNT(*) AS total_reviews
+FROM amazon_reviews
+GROUP BY label;
+
+✅ Expected Output:
+
+label
+
+total_reviews
+
+1 (Negative)
+
+100,000
+
+2 (Positive)
+
+100,000
+
+(For test.csv, since it contains 200K records, half should be positive and half negative.)
+
+3. Get 5 Sample Reviews
+
+SELECT * FROM amazon_reviews LIMIT 5;
+
+✅ Expected Output:
+
+label
+
+title
+
+review_text
+
+1
+
+"Bad product"
+
+"This item was terrible and broke quickly."
+
+2
+
+"Great buy"
+
+"Loved this product, highly recommend!"
+
+1
+
+"Not as expected"
+
+"The quality is poor, not worth the price."
+
+2
+
+"Amazing"
+
+"Exceeded my expectations!"
+
+1
+
+"Disappointed"
+
+"Would not purchase again."
+
+4. Find the Most Common Review Titles
+
+SELECT title, COUNT(*) AS frequency
+FROM amazon_reviews
+GROUP BY title
+ORDER BY frequency DESC
+LIMIT 10;
+
+✅ Expected Output:
+
+title
+
+frequency
+
+"Great product"
+
+1200
+
+"Bad quality"
+
+980
+
+"Worth the price"
+
+750
+
+"Not happy"
+
+620
+
+"Amazing"
+
+580
+
+
+5. Find the Longest Review in the Dataset
+
+SELECT review_text, LENGTH(review_text) AS review_length
+FROM amazon_reviews
+ORDER BY review_length DESC
+LIMIT 1;
+
+✅ Expected Output:
+
+review_text
+
+review_length
+
+"This is the longest review....(continues)..."
+
+1024
+
