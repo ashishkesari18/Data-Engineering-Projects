@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-def clean_and_query_csv(csv_file, query, output_file=None): #add output_file parameter
+def clean_and_query_csv(csv_file, query, output_file=None):
     try:
         df = pd.read_csv(csv_file, encoding='utf-8')
     except UnicodeDecodeError:
@@ -38,9 +38,9 @@ def clean_and_query_csv(csv_file, query, output_file=None): #add output_file par
 if __name__ == "__main__":
     csv_file = "data.csv"
     query = "CustomerID == 17850.0 and UnitPrice > 2"
-    output_file = "cleaned_data.csv" #output file name.
+    output_file = "cleaned_data.csv"
 
-    result_df = clean_and_query_csv(csv_file, query, output_file=output_file) #pass output_file
+    result_df = clean_and_query_csv(csv_file, query, output_file=output_file)
 
     if result_df is not None and not result_df.empty:
         print(result_df)

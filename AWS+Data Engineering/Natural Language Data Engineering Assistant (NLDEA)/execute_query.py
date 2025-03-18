@@ -11,7 +11,7 @@ import re
 import streamlit as st
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAW6257a2u2xH6od9v4q9q5_xdU_Dze9GU"
+
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 def run_athena_query(query):
@@ -21,7 +21,7 @@ def run_athena_query(query):
         response = client.start_query_execution(
             QueryString=query,
             QueryExecutionContext={'Database': 'nl_dea'},
-            ResultConfiguration={'OutputLocation': 's3://nl-dea-results/'}
+            ResultConfiguration={'OutputLocation': 's3://******/'}
         )
         return response["QueryExecutionId"]
     except ClientError as e:
@@ -29,7 +29,7 @@ def run_athena_query(query):
         return None
 
 def get_athena_query_results(query_execution_id):
-    client = boto3.client('athena', region_name='us-east-1')
+    client = boto3.client('athena', region_name='*******')
     while True:
         response = client.get_query_execution(QueryExecutionId=query_execution_id)
         status = response['QueryExecution']['Status']['State']

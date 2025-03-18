@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import os
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAW6257a2u2xH6od9v4q9q5_xdU_Dze9GU"
+os.environ["GOOGLE_API_KEY"] = "***********"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 def generate_query(natural_language):
