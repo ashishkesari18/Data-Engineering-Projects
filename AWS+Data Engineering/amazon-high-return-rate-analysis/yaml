@@ -1,0 +1,32 @@
+
+---
+
+## 📌 Query Logic Highlights
+
+- Calculate `return_rate` = total_returns / total_orders
+- Use `ARRAY_AGG(DISTINCT return_reason)` for return insights
+- Filter results with `HAVING return_rate > 0.15`
+- Output is sorted descending by `return_rate`
+
+---
+
+## 🚀 Final Output (Example)
+
+| sku     | category    | total_orders | total_returns | return_rate | return_reasons                           |
+|---------|-------------|--------------|----------------|-------------|-------------------------------------------|
+| SKU127  | Kitchen     | 9            | 5              | 0.56        | Poor quality, Broken on arrival           |
+| SKU123  | Electronics | 15           | 4              | 0.27        | Didn’t like it, Battery not charging      |
+
+---
+
+## 📬 Author
+
+Built by **Ashish Kesari** as part of the [AWS 100 Projects] initiative.
+
+---
+
+## ✅ Status
+
+✅ Completed  
+📦 Ready for Deployment or Analysis  
+💡 Ideal for real-world product return analytics at scale
