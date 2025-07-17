@@ -1,0 +1,38 @@
+[
+    {
+      "customer_name": "Ravi",
+      "email": "ashishkesari98@gmail.com",
+      "language_code": "te",
+      "order_id": "TE001122",
+      "delivery_date": "2025-07-28"
+    },
+    {
+      "customer_name": "Anita",
+      "email": "ashishkesari98@gmail.com",
+      "language_code": "hi",
+      "order_id": "HI334455",
+      "delivery_date": "2025-07-29"
+    },
+    {
+      "customer_name": "Hans",
+      "email": "ashishkesari98@gmail.com",
+      "language_code": "de",
+      "order_id": "DE998877",
+      "delivery_date": "2025-07-30"
+    },
+    {
+      "customer_name": "Marie",
+      "email": "ashishkesari98@gmail.com",
+      "language_code": "fr",
+      "order_id": "FR123456",
+      "delivery_date": "2025-07-31"
+    },
+    {
+      "customer_name": "Juan",
+      "email": "ashishkesari98@gmail.com",
+      "language_code": "es",
+      "order_id": "ES554433",
+      "delivery_date": "2025-08-01"
+    }
+  ]
+  
