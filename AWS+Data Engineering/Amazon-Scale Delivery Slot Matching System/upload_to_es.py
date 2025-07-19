@@ -1,19 +1,20 @@
-import json
 import requests
+from requests.auth import HTTPBasicAuth
+import json
 
-# UPDATE THIS with your actual endpoint (DO NOT include a trailing slash)
-ES_ENDPOINT = "https://search-prime-slot-search-vb6sbv5555dxh2fxjf6uef5rti.us-east-1.es.amazonaws.com"
+ES_ENDPOINT = "https://search-prime-slot-search-vb6sbv5555dxh2fxjf6uef5rti.us-east-1.es.amazonaws.com"  # update with your real endpoint
 INDEX = "delivery_options"
-AUTH = ("admin", "Admin@123")  # Username and password from fine-grained access
+USERNAME = "admin"        # Default fine-grained user
+PASSWORD = "Admin@123"  # You set this while creating OpenSearch
 
-# Step 1: Create the index with a mapping
+AUTH = HTTPBasicAuth(USERNAME, PASSWORD)
+
 mapping = {
     "mappings": {
         "properties": {
-            "product_id": { "type": "keyword" },
-            "zip_code": { "type": "keyword" },
-            "delivery_slot": { "type": "date" },
-            "stock": { "type": "integer" }
+            "product_id": {"type": "keyword"},
+            "delivery_slot": {"type": "date"},
+            "status": {"type": "keyword"}
         }
     }
 }
@@ -22,9 +23,12 @@ print("Creating index...")
 res = requests.put(f"{ES_ENDPOINT}/{INDEX}", auth=AUTH, json=mapping)
 print("Index response:", res.status_code, res.text)
 
-# Step 2: Upload delivery slot data
-with open("delivery_data.json") as f:
-    data = json.load(f)
-    for doc in data:
-        r = requests.post(f"{ES_ENDPOINT}/{INDEX}/_doc", auth=AUTH, json=doc)
-        print("Upload:", r.status_code, r.text)
+docs = [
+    {"product_id": "P123", "delivery_slot": "2025-07-25T10:00:00", "status": "available"},
+    {"product_id": "P234", "delivery_slot": "2025-07-25T10:00:00", "status": "not available"},
+    {"product_id": "P345", "delivery_slot": "2025-07-26T14:00:00", "status": "available"}
+]
+
+for doc in docs:
+    r = requests.post(f"{ES_ENDPOINT}/{INDEX}/_doc", auth=AUTH, json=doc)
+    print("Upload:", r.status_code, r.text)
