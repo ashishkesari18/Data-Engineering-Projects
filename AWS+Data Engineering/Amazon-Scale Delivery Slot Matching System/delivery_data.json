@@ -1,0 +1,20 @@
+[
+  {
+    "product_id": "P123",
+    "zip_code": "10001",
+    "delivery_slot": "2025-07-25T10:00-12:00",
+    "stock": 20
+  },
+  {
+    "product_id": "P234",
+    "zip_code": "10001",
+    "delivery_slot": "2025-07-25T10:00-12:00",
+    "stock": 0
+  },
+  {
+    "product_id": "P345",
+    "zip_code": "94105",
+    "delivery_slot": "2025-07-25T10:00-12:00",
+    "stock": 10
+  }
+]
