@@ -41,7 +41,7 @@ The dashboard answers key business questions like:
 
 ## Live Dashboard
 
-> 🔗 **[Click here to open the AthenaX Dashboard](https://your-streamlit-link.streamlit.app)**  
+> 🔗 **[Click here to open the AthenaX Dashboard](https://athenax-ashishk.streamlit.app)**  
 
 ## Contributing
 
