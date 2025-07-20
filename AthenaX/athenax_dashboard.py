@@ -36,7 +36,7 @@ st.title("📊 AthenaX – Leadership & Mentorship Insights")
 
 # ---------- Local CSV Fallback (Active Block) -------------
 try:
-    data = pd.read_csv("athenax_gold_layer.csv")
+    data = data = pd.read_csv("AWS+Data Engineering/AthenaX/athenax_gold_layer.csv")
 except FileNotFoundError:
     st.error("Gold layer CSV file not found. Please make sure 'athenax_gold_layer.csv' exists locally.")
     st.stop()
