@@ -5,7 +5,8 @@ from PIL import Image
 # Page configuration
 st.set_page_config(page_title="AthenaX Leadership Dashboard", layout="wide")
 st.title("📊 AthenaX – Leadership & Mentorship Insights")
-arch_diagram = Image.open("architecture.png")
+arch_diagram = Image.open("Architecture.png")
+st.image(arch_diagram, caption="AthenaX Architecture", use_column_width=True)
 custom_banner = Image.open("athenax_banner.png")
 
 # Display images in app
