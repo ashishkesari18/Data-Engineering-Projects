@@ -1,11 +1,18 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-
+from PIL import Image
 # Page configuration
 st.set_page_config(page_title="AthenaX Leadership Dashboard", layout="wide")
 st.title("📊 AthenaX – Leadership & Mentorship Insights")
+arch_diagram = Image.open("architecture.png")
+custom_banner = Image.open("athenax_banner.png") 
 
+st.subheader("🧱 Architecture Overview")
+st.image(arch_diagram, caption="AthenaX AWS Serverless Architecture", use_column_width=True)
+
+st.subheader("🎯 Vision Behind AthenaX")
+st.image(custom_banner, caption="Built for Visibility. Powered by AWS. Designed by Ashish.", use_column_width=True)
 # ----------- S3 Loading Logic (Commented Out) -------------
 # AWS S3 Config
 #import boto3
