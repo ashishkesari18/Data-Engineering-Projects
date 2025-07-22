@@ -1,6 +1,4 @@
-
 import streamlit as st
-import boto3
 import pandas as pd
 import json
 import plotly.express as px
@@ -8,30 +6,11 @@ import plotly.express as px
 st.set_page_config(page_title="SmartLockX Dashboard", layout="wide")
 st.title("🔐 SmartLockX – Real-Time Unlock Event Dashboard")
 
-# S3 config
-BUCKET = "smartlockx-unlock-events-raw"
-s3 = boto3.client("s3")
-
 @st.cache_data(show_spinner=False)
 def load_data():
-    objects = s3.list_objects_v2(Bucket=BUCKET)
-    if "Contents" not in objects:
-        return pd.DataFrame()
-
-    rows = []
-    for obj in objects["Contents"]:
-        if obj["Key"].endswith(".json"):
-            try:
-                response = s3.get_object(Bucket=BUCKET, Key=obj["Key"])
-                data = json.loads(response["Body"].read().decode("utf-8"))
-                rows.append(data)
-            except:
-                continue
-
-    if not rows:
-        return pd.DataFrame()
-
-    df = pd.DataFrame(rows)
+    with open("final_unlock_events.json", "r") as f:
+        data = json.load(f)
+    df = pd.DataFrame(data)
     df['timestamp'] = pd.to_datetime(df['timestamp'])
     df['date'] = df['timestamp'].dt.date
     df['hour'] = df['timestamp'].dt.hour
@@ -40,7 +19,7 @@ def load_data():
 df = load_data()
 
 if df.empty:
-    st.warning("⚠️ No data available. Run your simulator.")
+    st.warning("⚠️ No data available.")
     st.stop()
 
 # --- Sidebar filters
