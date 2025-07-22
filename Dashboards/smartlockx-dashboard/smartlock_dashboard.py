@@ -2,13 +2,15 @@ import streamlit as st
 import pandas as pd
 import json
 import plotly.express as px
+import os
 
 st.set_page_config(page_title="SmartLockX Dashboard", layout="wide")
 st.title("🔐 SmartLockX – Real-Time Unlock Event Dashboard")
 
 @st.cache_data(show_spinner=False)
 def load_data():
-    with open("final_unlock_events.json", "r") as f:
+    json_path = os.path.join(os.path.dirname(__file__), "final_unlock_events.json")
+    with open(json_path, "r") as f:
         data = json.load(f)
     df = pd.DataFrame(data)
     df['timestamp'] = pd.to_datetime(df['timestamp'])
@@ -47,13 +49,14 @@ st.divider()
 # --- Charts
 st.subheader("🔁 Unlock Status Distribution")
 st.plotly_chart(
-    px.histogram(df, x="status", color="status", title="Unlock Status Distribution"),
+    px.pie(df, names="status", title="Unlock Status Distribution"),
     use_container_width=True
 )
 
 st.subheader("📦 Delivery Type Frequency")
 st.plotly_chart(
-    px.histogram(df, x="delivery_type", color="delivery_type", title="Delivery Method Trends"),
+    px.bar(df['delivery_type'].value_counts().reset_index(), x='index', y='delivery_type', color='index',
+           title="Delivery Method Trends", labels={'index': 'Delivery Type', 'delivery_type': 'Count'}),
     use_container_width=True
 )
 
@@ -61,20 +64,22 @@ st.subheader("🌆 Top Cities by Unlock Volume")
 top_cities = df['location'].value_counts().nlargest(10).reset_index()
 top_cities.columns = ['City', 'Unlocks']
 st.plotly_chart(
-    px.bar(top_cities, x="City", y="Unlocks", color="City", title="Top 10 Cities"),
+    px.bar(top_cities, x="City", y="Unlocks", color="Unlocks", title="Top 10 Cities by Unlocks"),
     use_container_width=True
 )
 
 st.subheader("📅 Daily Unlock Volume")
 daily = df.groupby('date').size().reset_index(name='Unlocks')
 st.plotly_chart(
-    px.line(daily, x='date', y='Unlocks', markers=True, title="Daily Unlock Trends"),
+    px.area(daily, x='date', y='Unlocks', title="Daily Unlock Trends"),
     use_container_width=True
 )
 
 st.subheader("⏰ Hourly Unlock Distribution by Status")
 hourly = df.groupby(['hour', 'status']).size().reset_index(name='Count')
 st.plotly_chart(
-    px.bar(hourly, x='hour', y='Count', color='status', barmode='group', title="Unlocks by Hour and Status"),
+    px.line(hourly, x='hour', y='Count', color='status', markers=True, title="Hourly Unlocks by Status"),
     use_container_width=True
 )
+
+st.caption("🚀 Built with ❤ by Ashish | Powered by Streamlit & AWS")
