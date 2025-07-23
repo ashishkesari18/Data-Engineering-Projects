@@ -7,6 +7,9 @@ import os
 st.set_page_config(page_title="SmartLockX Dashboard", layout="wide")
 st.title("🔐 SmartLockX – Real-Time Unlock Event Dashboard")
 
+# 📌 Display architecture diagram
+st.image("architecture.png", caption="SmartLockX – Real-Time AWS Architecture", use_column_width=True)
+
 @st.cache_data(show_spinner=False)
 def load_data():
     json_path = os.path.join(os.path.dirname(__file__), "final_unlock_events.json")
