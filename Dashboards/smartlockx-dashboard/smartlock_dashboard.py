@@ -54,9 +54,11 @@ st.plotly_chart(
 )
 
 st.subheader("📦 Delivery Type Frequency")
+delivery_counts = df['delivery_type'].value_counts().reset_index()
+delivery_counts.columns = ['delivery_type', 'count']
 st.plotly_chart(
-    px.bar(df['delivery_type'].value_counts().reset_index(), x='index', y='delivery_type', color='index',
-           title="Delivery Method Trends", labels={'index': 'Delivery Type', 'delivery_type': 'Count'}),
+    px.bar(delivery_counts, x='delivery_type', y='count', color='delivery_type',
+           title="Delivery Method Trends", labels={'delivery_type': 'Delivery Type', 'count': 'Count'}),
     use_container_width=True
 )
 
