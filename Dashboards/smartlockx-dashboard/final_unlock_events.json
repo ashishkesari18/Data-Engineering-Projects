@@ -1,0 +1,1002 @@
+[
+  {
+    "event_id": "evt_bc772ff6",
+    "timestamp": "2025-07-15T17:39:58.752333",
+    "device_id": "dev_44",
+    "location": "Seattle",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_f56b2c27",
+    "timestamp": "2025-07-15T11:58:58.752333",
+    "device_id": "dev_11",
+    "location": "San Francisco",
+    "status": "failure",
+    "delivery_agent": "UPS",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_7b4bfb35",
+    "timestamp": "2025-07-21T00:56:58.752333",
+    "device_id": "dev_13",
+    "location": "Boston",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_c6f9abf3",
+    "timestamp": "2025-07-21T02:04:58.752333",
+    "device_id": "dev_9",
+    "location": "San Francisco",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_c040af53",
+    "timestamp": "2025-07-21T07:22:58.752333",
+    "device_id": "dev_41",
+    "location": "Phoenix",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_33654bd8",
+    "timestamp": "2025-07-13T18:39:58.752333",
+    "device_id": "dev_8",
+    "location": "Miami",
+    "status": "timeout",
+    "delivery_agent": "FedEx",
+    "delivery_type": "doorstep",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_7b6d7c56",
+    "timestamp": "2025-07-13T21:33:58.752333",
+    "device_id": "dev_39",
+    "location": "Seattle",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_d5dced25",
+    "timestamp": "2025-07-14T02:02:58.752333",
+    "device_id": "dev_42",
+    "location": "Phoenix",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_5eb6308b",
+    "timestamp": "2025-07-20T04:14:58.752333",
+    "device_id": "dev_6",
+    "location": "Los Angeles",
+    "status": "failure",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_5669f7a3",
+    "timestamp": "2025-07-22T18:22:58.752333",
+    "device_id": "dev_19",
+    "location": "Boston",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "doorstep",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_ea4f44d2",
+    "timestamp": "2025-07-15T18:53:58.752333",
+    "device_id": "dev_37",
+    "location": "New York",
+    "status": "failure",
+    "delivery_agent": "FedEx",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_4721cb25",
+    "timestamp": "2025-07-15T03:52:58.752333",
+    "device_id": "dev_33",
+    "location": "Miami",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_50ed8b93",
+    "timestamp": "2025-07-21T09:17:58.752333",
+    "device_id": "dev_19",
+    "location": "Boston",
+    "status": "failure",
+    "delivery_agent": "UPS",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_ed89feaf",
+    "timestamp": "2025-07-15T17:34:58.752333",
+    "device_id": "dev_20",
+    "location": "Phoenix",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_33788066",
+    "timestamp": "2025-07-18T06:19:58.752333",
+    "device_id": "dev_48",
+    "location": "Miami",
+    "status": "failure",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_7db87ad0",
+    "timestamp": "2025-07-19T16:29:58.752333",
+    "device_id": "dev_2",
+    "location": "San Francisco",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_70d38267",
+    "timestamp": "2025-07-19T16:51:58.752333",
+    "device_id": "dev_21",
+    "location": "Chicago",
+    "status": "failure",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_c736edf5",
+    "timestamp": "2025-07-22T12:45:58.752333",
+    "device_id": "dev_6",
+    "location": "Atlanta",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_d9651cb7",
+    "timestamp": "2025-07-15T04:51:58.752333",
+    "device_id": "dev_48",
+    "location": "New York",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_479c3a8f",
+    "timestamp": "2025-07-22T09:55:58.752333",
+    "device_id": "dev_10",
+    "location": "Miami",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_a432624f",
+    "timestamp": "2025-07-13T19:52:58.752333",
+    "device_id": "dev_35",
+    "location": "Los Angeles",
+    "status": "failure",
+    "delivery_agent": "Amazon",
+    "delivery_type": "locker",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_177339a5",
+    "timestamp": "2025-07-13T16:54:58.752333",
+    "device_id": "dev_13",
+    "location": "Boston",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_3d4199c4",
+    "timestamp": "2025-07-20T16:57:58.752333",
+    "device_id": "dev_12",
+    "location": "Boston",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_4d010bc5",
+    "timestamp": "2025-07-13T07:30:58.752333",
+    "device_id": "dev_30",
+    "location": "Houston",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_b91daf6b",
+    "timestamp": "2025-07-21T01:48:58.752333",
+    "device_id": "dev_33",
+    "location": "Los Angeles",
+    "status": "failure",
+    "delivery_agent": "FedEx",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_f3e32642",
+    "timestamp": "2025-07-18T11:10:58.752333",
+    "device_id": "dev_33",
+    "location": "Seattle",
+    "status": "timeout",
+    "delivery_agent": "DHL",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_f516f2fc",
+    "timestamp": "2025-07-14T14:54:58.752333",
+    "device_id": "dev_36",
+    "location": "Los Angeles",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "doorstep",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_7786001b",
+    "timestamp": "2025-07-21T09:16:58.752333",
+    "device_id": "dev_24",
+    "location": "Chicago",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_5be6cb91",
+    "timestamp": "2025-07-18T14:53:58.752333",
+    "device_id": "dev_24",
+    "location": "Atlanta",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_16d084ee",
+    "timestamp": "2025-07-21T03:36:58.752333",
+    "device_id": "dev_8",
+    "location": "Los Angeles",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_e68324f2",
+    "timestamp": "2025-07-16T06:48:58.752333",
+    "device_id": "dev_13",
+    "location": "Atlanta",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_b36622d5",
+    "timestamp": "2025-07-13T04:54:58.752333",
+    "device_id": "dev_22",
+    "location": "San Francisco",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_f729f7fc",
+    "timestamp": "2025-07-14T04:39:58.752333",
+    "device_id": "dev_38",
+    "location": "New York",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_396224df",
+    "timestamp": "2025-07-21T05:34:58.752333",
+    "device_id": "dev_50",
+    "location": "Houston",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_07b434c0",
+    "timestamp": "2025-07-15T00:13:58.752333",
+    "device_id": "dev_50",
+    "location": "New York",
+    "status": "timeout",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_b0469f4d",
+    "timestamp": "2025-07-15T17:14:58.752333",
+    "device_id": "dev_16",
+    "location": "Houston",
+    "status": "failure",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_37c43d5a",
+    "timestamp": "2025-07-19T09:47:58.752333",
+    "device_id": "dev_44",
+    "location": "Houston",
+    "status": "failure",
+    "delivery_agent": "DHL",
+    "delivery_type": "locker",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_ed1ae6bc",
+    "timestamp": "2025-07-22T03:10:58.752333",
+    "device_id": "dev_47",
+    "location": "Miami",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_e085083a",
+    "timestamp": "2025-07-14T22:00:58.752333",
+    "device_id": "dev_49",
+    "location": "Los Angeles",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_5154a408",
+    "timestamp": "2025-07-17T11:07:58.752333",
+    "device_id": "dev_9",
+    "location": "Miami",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_608e2fc1",
+    "timestamp": "2025-07-15T13:29:58.752333",
+    "device_id": "dev_27",
+    "location": "Phoenix",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_07498b21",
+    "timestamp": "2025-07-13T08:43:58.752333",
+    "device_id": "dev_30",
+    "location": "New York",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_f872c8da",
+    "timestamp": "2025-07-18T01:47:58.752333",
+    "device_id": "dev_9",
+    "location": "Houston",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "locker",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_4ddc4283",
+    "timestamp": "2025-07-20T03:13:58.752333",
+    "device_id": "dev_46",
+    "location": "Boston",
+    "status": "timeout",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_9290197f",
+    "timestamp": "2025-07-13T22:30:58.752333",
+    "device_id": "dev_21",
+    "location": "Chicago",
+    "status": "failure",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_7de9bb36",
+    "timestamp": "2025-07-14T19:09:58.752333",
+    "device_id": "dev_26",
+    "location": "Boston",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "locker",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_2290674e",
+    "timestamp": "2025-07-18T05:28:58.752333",
+    "device_id": "dev_24",
+    "location": "Chicago",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_5157ebff",
+    "timestamp": "2025-07-19T07:23:58.752333",
+    "device_id": "dev_21",
+    "location": "Boston",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "locker",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_e55d1279",
+    "timestamp": "2025-07-16T01:10:58.752333",
+    "device_id": "dev_18",
+    "location": "Los Angeles",
+    "status": "failure",
+    "delivery_agent": "UPS",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_2854f851",
+    "timestamp": "2025-07-14T05:35:58.752333",
+    "device_id": "dev_12",
+    "location": "Boston",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_e078794a",
+    "timestamp": "2025-07-17T05:37:58.752333",
+    "device_id": "dev_23",
+    "location": "Chicago",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "doorstep",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_ab803540",
+    "timestamp": "2025-07-13T02:04:58.752333",
+    "device_id": "dev_24",
+    "location": "San Francisco",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_2a022c22",
+    "timestamp": "2025-07-22T13:50:58.752333",
+    "device_id": "dev_10",
+    "location": "Seattle",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_7fdeb12b",
+    "timestamp": "2025-07-18T23:03:58.752333",
+    "device_id": "dev_16",
+    "location": "Phoenix",
+    "status": "failure",
+    "delivery_agent": "UPS",
+    "delivery_type": "locker",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_e1d118f0",
+    "timestamp": "2025-07-17T16:18:58.752333",
+    "device_id": "dev_15",
+    "location": "Los Angeles",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_790334ee",
+    "timestamp": "2025-07-20T03:54:58.752333",
+    "device_id": "dev_9",
+    "location": "Houston",
+    "status": "timeout",
+    "delivery_agent": "UPS",
+    "delivery_type": "locker",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_ab73520c",
+    "timestamp": "2025-07-16T01:07:58.752333",
+    "device_id": "dev_49",
+    "location": "Atlanta",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_2940d826",
+    "timestamp": "2025-07-13T09:33:58.752333",
+    "device_id": "dev_20",
+    "location": "Los Angeles",
+    "status": "timeout",
+    "delivery_agent": "DHL",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_49049808",
+    "timestamp": "2025-07-21T04:40:58.752333",
+    "device_id": "dev_36",
+    "location": "Los Angeles",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "doorstep",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_0a3f610e",
+    "timestamp": "2025-07-21T02:10:58.752333",
+    "device_id": "dev_49",
+    "location": "Seattle",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_cdac96b1",
+    "timestamp": "2025-07-17T14:37:58.752333",
+    "device_id": "dev_33",
+    "location": "New York",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "locker",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_49ae232b",
+    "timestamp": "2025-07-21T06:10:58.752333",
+    "device_id": "dev_3",
+    "location": "Houston",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_fb2e26dd",
+    "timestamp": "2025-07-20T01:27:58.752333",
+    "device_id": "dev_38",
+    "location": "Los Angeles",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_ba2c70eb",
+    "timestamp": "2025-07-16T23:16:58.752333",
+    "device_id": "dev_36",
+    "location": "Phoenix",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_0ae36d7b",
+    "timestamp": "2025-07-14T18:15:58.752333",
+    "device_id": "dev_43",
+    "location": "San Francisco",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_c41600a6",
+    "timestamp": "2025-07-19T18:32:58.752333",
+    "device_id": "dev_48",
+    "location": "Atlanta",
+    "status": "timeout",
+    "delivery_agent": "FedEx",
+    "delivery_type": "locker",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_2fa9a896",
+    "timestamp": "2025-07-21T22:19:58.752333",
+    "device_id": "dev_43",
+    "location": "Los Angeles",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_c699e019",
+    "timestamp": "2025-07-15T21:37:58.752333",
+    "device_id": "dev_36",
+    "location": "San Francisco",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_210bbcf6",
+    "timestamp": "2025-07-17T01:46:58.752333",
+    "device_id": "dev_6",
+    "location": "Atlanta",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_5a56c60a",
+    "timestamp": "2025-07-17T16:08:58.752333",
+    "device_id": "dev_48",
+    "location": "Miami",
+    "status": "failure",
+    "delivery_agent": "FedEx",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_456bd789",
+    "timestamp": "2025-07-14T03:53:58.752333",
+    "device_id": "dev_17",
+    "location": "Phoenix",
+    "status": "failure",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_8a1e8018",
+    "timestamp": "2025-07-16T09:16:58.752333",
+    "device_id": "dev_4",
+    "location": "Phoenix",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_070d765a",
+    "timestamp": "2025-07-22T18:28:58.752333",
+    "device_id": "dev_20",
+    "location": "San Francisco",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_1f561899",
+    "timestamp": "2025-07-14T05:17:58.752333",
+    "device_id": "dev_26",
+    "location": "Seattle",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_81c9257f",
+    "timestamp": "2025-07-18T02:20:58.752333",
+    "device_id": "dev_26",
+    "location": "Chicago",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_1d55ebb3",
+    "timestamp": "2025-07-17T06:47:58.752333",
+    "device_id": "dev_41",
+    "location": "Phoenix",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_fdf7966e",
+    "timestamp": "2025-07-15T05:45:58.752333",
+    "device_id": "dev_27",
+    "location": "Los Angeles",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "doorstep",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_2dda563a",
+    "timestamp": "2025-07-13T13:03:58.752333",
+    "device_id": "dev_3",
+    "location": "Houston",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "doorstep",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_de4bca5d",
+    "timestamp": "2025-07-18T04:19:58.752333",
+    "device_id": "dev_5",
+    "location": "Houston",
+    "status": "timeout",
+    "delivery_agent": "UPS",
+    "delivery_type": "locker",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_b53af0df",
+    "timestamp": "2025-07-15T12:40:58.752333",
+    "device_id": "dev_40",
+    "location": "New York",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_bd392243",
+    "timestamp": "2025-07-19T05:21:58.752333",
+    "device_id": "dev_32",
+    "location": "Miami",
+    "status": "success",
+    "delivery_agent": "UPS",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_88e50bb6",
+    "timestamp": "2025-07-19T02:40:58.752333",
+    "device_id": "dev_10",
+    "location": "Houston",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_3848f6fe",
+    "timestamp": "2025-07-13T12:08:58.752333",
+    "device_id": "dev_3",
+    "location": "New York",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_5257a18e",
+    "timestamp": "2025-07-19T06:49:58.752333",
+    "device_id": "dev_45",
+    "location": "Atlanta",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "garage",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_9aa656c1",
+    "timestamp": "2025-07-13T16:51:58.752333",
+    "device_id": "dev_43",
+    "location": "Boston",
+    "status": "failure",
+    "delivery_agent": "UPS",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_5f85b1ea",
+    "timestamp": "2025-07-19T10:25:58.752333",
+    "device_id": "dev_28",
+    "location": "Miami",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "locker",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_56691fe8",
+    "timestamp": "2025-07-14T04:53:58.752333",
+    "device_id": "dev_25",
+    "location": "Seattle",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_91ec20f5",
+    "timestamp": "2025-07-16T06:04:58.752333",
+    "device_id": "dev_26",
+    "location": "Boston",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_b2a245eb",
+    "timestamp": "2025-07-21T12:55:58.752333",
+    "device_id": "dev_48",
+    "location": "Phoenix",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_d80a56ca",
+    "timestamp": "2025-07-13T04:36:58.752333",
+    "device_id": "dev_36",
+    "location": "Miami",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_776bac81",
+    "timestamp": "2025-07-16T14:14:58.752333",
+    "device_id": "dev_26",
+    "location": "New York",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_e5505f14",
+    "timestamp": "2025-07-13T01:32:58.752333",
+    "device_id": "dev_49",
+    "location": "New York",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "locker",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_8a2c52c3",
+    "timestamp": "2025-07-20T12:19:58.752333",
+    "device_id": "dev_36",
+    "location": "Seattle",
+    "status": "failure",
+    "delivery_agent": "Amazon",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_ede35370",
+    "timestamp": "2025-07-21T07:08:58.752333",
+    "device_id": "dev_35",
+    "location": "Seattle",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_ca03e4b9",
+    "timestamp": "2025-07-17T18:06:58.752333",
+    "device_id": "dev_40",
+    "location": "Atlanta",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "garage",
+    "attempt": 3
+  },
+  {
+    "event_id": "evt_3e72df5f",
+    "timestamp": "2025-07-15T22:17:58.752333",
+    "device_id": "dev_11",
+    "location": "Phoenix",
+    "status": "success",
+    "delivery_agent": "FedEx",
+    "delivery_type": "doorstep",
+    "attempt": 2
+  },
+  {
+    "event_id": "evt_04313d5f",
+    "timestamp": "2025-07-13T09:03:58.752333",
+    "device_id": "dev_10",
+    "location": "Boston",
+    "status": "success",
+    "delivery_agent": "Amazon",
+    "delivery_type": "locker",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_5747c41b",
+    "timestamp": "2025-07-18T01:08:58.752333",
+    "device_id": "dev_24",
+    "location": "Boston",
+    "status": "failure",
+    "delivery_agent": "Amazon",
+    "delivery_type": "garage",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_7f035c7a",
+    "timestamp": "2025-07-17T19:20:58.752333",
+    "device_id": "dev_37",
+    "location": "San Francisco",
+    "status": "success",
+    "delivery_agent": "DHL",
+    "delivery_type": "doorstep",
+    "attempt": 1
+  },
+  {
+    "event_id": "evt_9f2ec671",
+    "timestamp": "2025-07-16T13:36:58.752333",
+    "device_id": "dev_22",
+    "location": "San Francisco",
+    "status": "timeout",
+    "delivery_agent": "FedEx",
+    "delivery_type": "garage",
+    "attempt": 1
+  }
+]
