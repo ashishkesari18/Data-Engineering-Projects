@@ -7,8 +7,8 @@ import os
 st.set_page_config(page_title="SmartLockX Dashboard", layout="wide")
 st.title("🔐 SmartLockX – Real-Time Unlock Event Dashboard")
 
-# 📌 Display architecture diagram
-st.image("architecture.png", caption="SmartLockX – Real-Time AWS Architecture", use_column_width=True)
+# ✅ Add architecture image at the top
+st.image("architecture.jpg", caption="SmartLockX – Real-Time AWS Architecture", use_container_width=True)
 
 @st.cache_data(show_spinner=False)
 def load_data():
