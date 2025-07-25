@@ -1,4 +1,4 @@
-# Project 8: Improving Athena Query Speed Using Partitioning 🚀
+# Improving Athena Query Speed Using Partitioning 🚀
 
 ## Scenario
 
@@ -57,4 +57,3 @@ WHERE region = 'Texas' AND event_date = DATE '2025-07-22';
 - Cost savings via less data scanned
 - Amazon-level real ops impact
 
-Built with ❤️ for the #100DaysOfAWSDataEngineering Challenge.
