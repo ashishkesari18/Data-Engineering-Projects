@@ -1,0 +1,7 @@
+unlock_id,timestamp,driver_id,door_id,region,status,access_type
+1,2025-07-24 08:12:00,DR001,DOOR01,Seattle,success,scheduled
+2,2025-07-24 08:30:00,DR002,DOOR02,Seattle,fail,scheduled
+3,2025-07-24 09:00:00,DR001,DOOR03,Seattle,success,manual
+4,2025-07-24 10:15:00,DR003,DOOR01,Portland,fail,scheduled
+5,2025-07-24 10:45:00,DR001,DOOR01,Seattle,fail,manual
+6,2025-07-24 11:00:00,DR002,DOOR02,Seattle,success,scheduled
