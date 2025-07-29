@@ -1,7 +1,101 @@
 unlock_id,timestamp,driver_id,door_id,region,status,access_type
-1,2025-07-24 08:12:00,DR001,DOOR01,Seattle,success,scheduled
-2,2025-07-24 08:30:00,DR002,DOOR02,Seattle,fail,scheduled
-3,2025-07-24 09:00:00,DR001,DOOR03,Seattle,success,manual
-4,2025-07-24 10:15:00,DR003,DOOR01,Portland,fail,scheduled
-5,2025-07-24 10:45:00,DR001,DOOR01,Seattle,fail,manual
-6,2025-07-24 11:00:00,DR002,DOOR02,Seattle,success,scheduled
+1,2025-07-25 13:52:54,DR777,DOOR01,Los Angeles,fail,scheduled
+2,2025-07-24 23:27:54,DR777,DOOR04,San Francisco,success,manual
+3,2025-07-26 11:56:54,DR078,DOOR05,San Francisco,success,manual
+4,2025-07-25 05:03:54,DR777,DOOR03,Los Angeles,success,scheduled
+5,2025-07-21 17:38:54,DR369,DOOR02,Seattle,success,scheduled
+6,2025-07-24 00:40:54,DR463,DOOR01,Seattle,success,manual
+7,2025-07-24 14:11:54,DR777,DOOR04,Los Angeles,success,manual
+8,2025-07-21 18:09:54,DR623,DOOR04,San Francisco,success,manual
+9,2025-07-22 19:02:54,DR777,DOOR03,Los Angeles,success,manual
+10,2025-07-27 03:06:54,DR158,DOOR01,Portland,success,scheduled
+11,2025-07-23 17:34:54,DR369,DOOR05,Los Angeles,success,scheduled
+12,2025-07-27 00:59:54,DR820,DOOR04,Portland,success,manual
+13,2025-07-26 08:46:54,DR078,DOOR02,San Francisco,success,manual
+14,2025-07-21 12:56:54,DR158,DOOR03,Seattle,success,scheduled
+15,2025-07-27 15:22:54,DR854,DOOR01,San Francisco,success,manual
+16,2025-07-27 09:50:54,DR571,DOOR03,Seattle,success,scheduled
+17,2025-07-22 10:00:54,DR820,DOOR04,San Francisco,success,manual
+18,2025-07-24 02:52:54,DR078,DOOR05,Seattle,success,scheduled
+19,2025-07-22 17:01:54,DR623,DOOR01,Seattle,success,scheduled
+20,2025-07-25 12:40:54,DR571,DOOR04,San Francisco,success,scheduled
+21,2025-07-25 20:38:54,DR463,DOOR02,Portland,success,scheduled
+22,2025-07-25 10:46:54,DR623,DOOR01,Seattle,success,scheduled
+23,2025-07-25 11:39:54,DR078,DOOR03,Portland,success,manual
+24,2025-07-21 23:13:54,DR854,DOOR03,Los Angeles,success,manual
+25,2025-07-27 20:17:54,DR369,DOOR04,San Francisco,success,scheduled
+26,2025-07-24 07:55:54,DR158,DOOR04,Seattle,success,scheduled
+27,2025-07-25 19:24:54,DR854,DOOR04,Los Angeles,fail,manual
+28,2025-07-21 17:16:54,DR854,DOOR05,San Francisco,success,manual
+29,2025-07-25 22:34:54,DR854,DOOR04,Seattle,success,manual
+30,2025-07-25 07:55:54,DR820,DOOR02,San Francisco,success,scheduled
+31,2025-07-27 20:22:54,DR369,DOOR02,Seattle,success,manual
+32,2025-07-27 02:41:54,DR777,DOOR02,Los Angeles,success,manual
+33,2025-07-26 21:10:54,DR463,DOOR01,Seattle,fail,scheduled
+34,2025-07-21 03:13:54,DR854,DOOR04,Portland,success,manual
+35,2025-07-22 07:21:54,DR777,DOOR01,Los Angeles,success,scheduled
+36,2025-07-22 23:31:54,DR078,DOOR01,Portland,fail,scheduled
+37,2025-07-25 02:59:54,DR820,DOOR04,Los Angeles,success,scheduled
+38,2025-07-23 11:59:54,DR854,DOOR05,San Francisco,success,manual
+39,2025-07-21 07:32:54,DR158,DOOR05,Portland,success,scheduled
+40,2025-07-22 12:37:54,DR777,DOOR02,Los Angeles,success,scheduled
+41,2025-07-21 01:36:54,DR854,DOOR04,Portland,success,scheduled
+42,2025-07-27 14:01:54,DR369,DOOR04,San Francisco,success,scheduled
+43,2025-07-27 15:41:54,DR854,DOOR05,San Francisco,success,manual
+44,2025-07-26 19:50:54,DR777,DOOR03,Los Angeles,success,scheduled
+45,2025-07-22 11:41:54,DR623,DOOR02,San Francisco,fail,manual
+46,2025-07-21 14:01:54,DR369,DOOR03,Portland,success,manual
+47,2025-07-22 01:33:54,DR777,DOOR05,Seattle,fail,scheduled
+48,2025-07-26 23:43:54,DR777,DOOR04,San Francisco,success,manual
+49,2025-07-21 14:34:54,DR854,DOOR01,Seattle,success,manual
+50,2025-07-21 17:53:54,DR013,DOOR02,San Francisco,success,manual
+51,2025-07-27 23:39:54,DR463,DOOR01,Portland,success,scheduled
+52,2025-07-26 22:38:54,DR369,DOOR02,Los Angeles,success,scheduled
+53,2025-07-27 11:48:54,DR369,DOOR04,San Francisco,success,manual
+54,2025-07-27 14:53:54,DR777,DOOR04,San Francisco,success,manual
+55,2025-07-21 12:56:54,DR078,DOOR01,Los Angeles,success,manual
+56,2025-07-26 04:52:54,DR777,DOOR02,San Francisco,success,scheduled
+57,2025-07-21 18:10:54,DR571,DOOR03,San Francisco,success,manual
+58,2025-07-25 14:27:54,DR571,DOOR04,Los Angeles,success,manual
+59,2025-07-27 17:08:54,DR571,DOOR04,San Francisco,success,scheduled
+60,2025-07-26 20:50:54,DR854,DOOR03,Portland,fail,scheduled
+61,2025-07-22 01:26:54,DR777,DOOR01,San Francisco,fail,scheduled
+62,2025-07-26 18:28:54,DR013,DOOR03,San Francisco,fail,scheduled
+63,2025-07-23 17:04:54,DR571,DOOR01,Los Angeles,success,manual
+64,2025-07-27 13:08:54,DR623,DOOR05,Portland,success,manual
+65,2025-07-23 20:48:54,DR369,DOOR04,Seattle,success,manual
+66,2025-07-22 03:38:54,DR820,DOOR03,Los Angeles,success,manual
+67,2025-07-27 20:42:54,DR854,DOOR03,Seattle,success,scheduled
+68,2025-07-24 19:30:54,DR623,DOOR01,San Francisco,success,scheduled
+69,2025-07-26 06:00:54,DR158,DOOR02,Seattle,fail,manual
+70,2025-07-27 09:40:54,DR369,DOOR04,Seattle,success,manual
+71,2025-07-26 09:51:54,DR571,DOOR01,Portland,success,scheduled
+72,2025-07-21 23:23:54,DR369,DOOR01,Portland,success,manual
+73,2025-07-24 15:06:54,DR013,DOOR04,Seattle,success,scheduled
+74,2025-07-25 14:41:54,DR777,DOOR03,Los Angeles,success,scheduled
+75,2025-07-25 06:16:54,DR369,DOOR03,San Francisco,fail,scheduled
+76,2025-07-26 20:31:54,DR571,DOOR01,Portland,success,scheduled
+77,2025-07-27 08:17:54,DR158,DOOR03,Los Angeles,success,scheduled
+78,2025-07-27 22:11:54,DR571,DOOR04,San Francisco,success,scheduled
+79,2025-07-26 08:09:54,DR777,DOOR01,San Francisco,success,manual
+80,2025-07-27 16:26:54,DR777,DOOR05,Portland,success,manual
+81,2025-07-23 06:12:54,DR158,DOOR05,San Francisco,success,scheduled
+82,2025-07-24 16:56:54,DR078,DOOR05,Los Angeles,fail,manual
+83,2025-07-22 15:36:54,DR463,DOOR02,San Francisco,fail,manual
+84,2025-07-22 19:43:54,DR777,DOOR04,San Francisco,success,manual
+85,2025-07-27 18:44:54,DR623,DOOR04,Seattle,fail,manual
+86,2025-07-21 17:44:54,DR571,DOOR02,Seattle,success,scheduled
+87,2025-07-23 16:44:54,DR820,DOOR05,San Francisco,success,scheduled
+88,2025-07-26 11:06:54,DR623,DOOR03,Los Angeles,success,manual
+89,2025-07-26 22:48:54,DR777,DOOR02,Seattle,success,scheduled
+90,2025-07-22 05:19:54,DR158,DOOR02,Los Angeles,success,scheduled
+91,2025-07-22 20:10:54,DR158,DOOR04,San Francisco,success,manual
+92,2025-07-23 19:46:54,DR463,DOOR05,San Francisco,success,manual
+93,2025-07-23 15:13:54,DR777,DOOR03,Los Angeles,success,manual
+94,2025-07-25 21:23:54,DR158,DOOR04,San Francisco,fail,manual
+95,2025-07-24 17:16:54,DR369,DOOR02,Seattle,success,manual
+96,2025-07-22 07:28:54,DR571,DOOR05,San Francisco,success,scheduled
+97,2025-07-23 10:48:54,DR013,DOOR02,Seattle,success,scheduled
+98,2025-07-21 05:49:54,DR463,DOOR01,Los Angeles,success,manual
+99,2025-07-26 03:49:54,DR463,DOOR04,San Francisco,success,manual
+100,2025-07-23 09:09:54,DR369,DOOR03,Portland,success,scheduled
